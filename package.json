@@ -1,6 +1,6 @@
 {
   "name": "vue-mixins-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue plugin that store mixins",
   "main": "main.js",
   "scripts": {
@@ -11,9 +11,8 @@
     "url": "git+https://github.com/mirkoferraro/vue-mixins-store.git"
   },
   "keywords": [
-    "laravel",
-    "axios",
-    "auth"
+    "vue",
+    "mixin"
   ],
   "author": "Mirko Ferraro",
   "license": "MIT",
