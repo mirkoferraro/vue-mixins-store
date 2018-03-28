@@ -23,14 +23,16 @@ Vue.use(VueMixinsStore)
 
 ## Register a mixin
 ```js
-Vue.registerMixin('myMixin', { ... })
+Vue.mixin({ ... }) // old way, register a global mixin
+Vue.mixin('myMixin', { ... }) // new way, register a stored mixin
 ```
 
 ## Use a registered mixin
 ```js
+import Vue from 'vue'
 export default {
     mixins: [
-        this.$mixins.myMixin
+        Vue.$mixins.myMixin
     ]
 }
 ```
